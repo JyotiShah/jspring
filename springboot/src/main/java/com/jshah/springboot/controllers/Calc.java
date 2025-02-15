@@ -11,8 +11,9 @@ public class Calc {
     public int add(@PathVariable int n1, @PathVariable int n2){
         return (n1 + n2);
     }
-    @GetMapping("/subract/{n1}/{n2}")
-    public int subract(@PathVariable int n1, @PathVariable int n2){
+
+    @GetMapping("/subtract/{n1}/{n2}")
+    public int subtract(@PathVariable int n1, @PathVariable int n2){
         return (n1 - n2);
     }
 
