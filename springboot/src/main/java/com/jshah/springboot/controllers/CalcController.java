@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Calc {
+public class CalcController {
 
     @GetMapping("/add/{n1}/{n2}")
     public int add(@PathVariable int n1, @PathVariable int n2){
